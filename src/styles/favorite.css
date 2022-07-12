@@ -1,0 +1,18 @@
+.favwrap{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+}
+.btc > div{
+    display: flex;
+    flex-flow: row nowrap;
+    column-gap: 15px;
+}
+.pairswrap{
+    display: flex;
+    flex-flow: column wrap;
+}

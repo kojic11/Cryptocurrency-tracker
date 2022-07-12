@@ -1,0 +1,42 @@
+.navwrap{
+    position: fixed;
+    top:0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 100vw;
+    align-items: center;
+}
+.brand{
+    margin-left: 20px;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+    cursor: pointer;
+}
+.brand > a{
+    text-decoration: none;
+    color: black;
+}
+.login{
+    margin-right: 20px;
+}
+.btn-l{
+    height: 50px;
+    width: 90px;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    background-color: #5783db;
+    color: white;
+    transition: 1s;
+    cursor: pointer;
+}
+.btn-l:hover{
+    background-color: #37538b;
+}
+.active{
+    font-weight: bold;
+}

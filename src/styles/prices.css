@@ -1,0 +1,50 @@
+.priceswrap{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: center;
+}
+.name{
+    width: 20%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.last, .change, .chaper, .high, .low{
+    width: 13%;
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: left;
+}
+.low{
+    width: fit-content;
+}
+.pairs{
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration:underline;
+    color: black;
+    
+}
+.column{
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+#col_name{
+    border-radius: 10px 0 0 10px;
+}
+#col_low{
+    border-radius: 0 10px 10px 0;
+    padding-right:10px ;
+}
+#col_name > p {
+    padding-left: 5px;
+}
