@@ -1,4 +1,4 @@
-# React-project
+#  Cryptocurrency-tracker
 
 ### Home when user is not logged
 
